@@ -1,4 +1,4 @@
-namespace Command.Models
+namespace Commander.Models
 {
     public class Command
     {

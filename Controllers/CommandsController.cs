@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Commander.Models;
+using Commander.Data;
 
 namespace Commander.Controllers
 {
@@ -8,14 +9,22 @@ namespace Commander.Controllers
     [ApiController]
     public class CommandsController : ControllerBase
     {
-        public ActionResult <IEnumerable<CommandModel>> GetAllCommands()
+        private readonly MockCommanderRepo _repository = new MockCommanderRepo();
+        // GET api/commands
+        [HttpGet]
+        public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
-            return 1;
+            var commandItems = _repository.GetAllCommands();
+            return Ok(commandItems);
+            
         }
 
-        public ActionResult <CommandModel> GetCommandById(int id)
+        // GET api/commands/{id}
+        [HttpGet("{id}")]
+        public ActionResult<Command> GetCommandById(int id)
         {
-            return 1;
+            var commandItem = _repository.GetCommandById(id);
+            return Ok(commandItem);
         }
     }
 }
