@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\Commander\\Commander.csproj": {}
+    "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\commander\\Commander.csproj": {}
   },
   "projects": {
-    "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\Commander\\Commander.csproj": {
+    "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\commander\\Commander.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\commander\\Commander.csproj",
         "projectName": "Commander",
-        "projectPath": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\Commander\\Commander.csproj",
+        "projectPath": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\commander\\Commander.csproj",
         "packagesPath": "C:\\Users\\saliu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\Commander\\obj\\",
+        "outputPath": "C:\\Users\\saliu\\Documents\\_CODES\\.NET\\commander\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\saliu\\AppData\\Roaming\\NuGet\\NuGet.Config"
